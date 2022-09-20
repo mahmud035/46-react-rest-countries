@@ -1,0 +1,14 @@
+.country-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1.5rem;
+}
+
+.country-container img {
+  width: 100%;
+  height: 218px;
+}
+
+h1 {
+  color: #002b5b;
+}

@@ -4,7 +4,7 @@ import './AllCountry.css';
 
 const AllCountry = () => {
   const [countries, setCountries] = useState([]);
-  console.log(countries);
+  // console.log(countries);
 
   useEffect(() => {
     fetch(`https://restcountries.com/v3.1/all`)

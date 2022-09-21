@@ -4,7 +4,7 @@ import ReactModal from '../ReactModal/ReactModal';
 import './SingleCountry.css';
 
 const SingleCountry = ({ country }) => {
-  console.log(country);
+  // console.log(country);
   const {
     name: { common },
     flags: { png },
@@ -27,7 +27,7 @@ const SingleCountry = ({ country }) => {
           <strong>Population:</strong> {population} <br />
           <strong>UN Member:</strong> {unMember ? 'Yes' : 'No'}
         </Card.Text>
-        <ReactModal></ReactModal>
+        <ReactModal country={country}></ReactModal>
       </Card.Body>
     </Card>
   );
